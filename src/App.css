@@ -1,38 +1,112 @@
-.App {
+body {
+  font-family: "Pacifico", cursive;
+  font-family: "Quicksand", sans-serif;
+  color: #9656a1;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+#icon {
+  font-size: 30px;
+}
+.btn {
+  background: #9656a1;
+  color: #ffffff;
+}
+.btn:hover {
+  background: #b79dbc;
+  border: 1px solid #b79dbc;
+  color: #ffffff;
+}
+.WeatherAppWrapper {
+  max-width: 800px;
+  margin: 20px auto;
+}
+.WeatherApp {
+  padding: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+.WeatherAppWrapper a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #9656a1;
+}
+.WeatherAppWrapper a:hover {
+  color: #b79dbc;
+}
+.weather-temperature strong {
+  color: #9656a1;
+  font-size: 74px;
+  font-weight: 600;
+  line-height: 1;
+}
+.weather-temperature .unit {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+  text-decoration: none;
+}
+
+.weather-temperature .selectCelsuis,
+.weather-temperature .selectFahrenheit {
+  color: #9656a1;
+  cursor: default;
+}
+.weather-temperature .clickCelsuis:hover,
+.weather-temperature .clickFahrenheit:hover {
+  text-decoration: none;
+}
+.WeatherForecast {
+  padding: 10px;
+  margin-top: 20px;
   text-align: center;
+  border-radius: 10px;
+  background: #ffffff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-forecast-date {
+  font-size: 26px;
+  font-weight: 600;
+  background-image: linear-gradient(
+    57.4deg,
+    rgb(249, 206, 183) 4.6%,
+    rgb(234, 174, 202) 26%,
+    rgb(210, 182, 226) 49.1%,
+    rgb(173, 209, 242) 86.5%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weather-forecasr-temperatures {
+  font-size: 13px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
-
-.App-link {
-  color: #61dafb;
+.Overview {
+  margin-bottom: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Overview h1 {
+  font-size: 72px;
+  font-weight: 700;
+  background-image: linear-gradient(
+    57.4deg,
+    rgb(249, 206, 183) 4.6%,
+    rgb(234, 174, 202) 26%,
+    rgb(210, 182, 226) 49.1%,
+    rgb(173, 209, 242) 86.5%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
 }
