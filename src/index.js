@@ -15,7 +15,7 @@ function App() {
           <small>
             Open-sourse code on{" "}
             <a
-              href="https://github.com/NataliiaProkopenko87/vanilla-weather-app"
+              href="https://github.com/NataliiaProkopenko87/weather-react-app-2"
               target="_blank"
               rel="noreferrer"
             >
