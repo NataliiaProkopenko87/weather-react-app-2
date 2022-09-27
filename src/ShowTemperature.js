@@ -23,7 +23,6 @@ export default function ShowTemperature(props) {
     return (
       
       <span>
-        
         <strong id="temperature">{Math.round(props.celsius)}</strong>
         <span class="unit">
           <span className="selectCelsius">℃</span>|{" "}

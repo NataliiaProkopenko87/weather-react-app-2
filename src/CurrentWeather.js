@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import ShowTemperature from "./ShowTemperature";
+import Icon from "./Icon";
 
 
 
@@ -11,6 +12,9 @@ export default function CurrentWeather(props) {
         <div class="col-6">
           <div class="clearfix weather-temperature">
             <div class="float-left">
+            <span>
+              <Icon code={props.data.icon} size={52} />
+            </span>
               <ShowTemperature celsius={props.data.temperature} />
             </div>
           </div>
