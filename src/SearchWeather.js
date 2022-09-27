@@ -60,6 +60,7 @@ export default function SearchForm(props) {
                 <input
                   type="search"
                   placeholder="Enter a city"
+                  defaultValue={props.defaultKeyword}
                   class="form-control"
                   id="city-input"
                   autocomplete="off"

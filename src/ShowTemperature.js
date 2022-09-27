@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import "./App.css";
 
 export default function ShowTemperature(props) {
@@ -20,7 +21,9 @@ export default function ShowTemperature(props) {
 
   if (unit === "celsius") {
     return (
+      
       <span>
+        
         <strong id="temperature">{Math.round(props.celsius)}</strong>
         <span class="unit">
           <span className="selectCelsius">℃</span>|{" "}
