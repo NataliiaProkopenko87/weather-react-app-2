@@ -24,7 +24,7 @@ function App() {
             , created by{" "}
             <a
               href="https://tiny-semolina-5cec1e.netlify.app/"
-              targer="_blank"
+              target="_blank"
               rel="noreferrer"
             >
               Nataliia Prokopenko

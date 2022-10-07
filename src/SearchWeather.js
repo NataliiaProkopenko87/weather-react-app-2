@@ -5,7 +5,7 @@ import CurrentWeather from "./CurrentWeather";
 import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 
-export default function SearchForm(props) {
+export default function SearchWeather(props) {
   let [city, setCity] = useState(props.defaultCity);
   let [weather, setWeather] = useState({ ready: false });
 
